@@ -7,7 +7,7 @@
   graphitePort: 2003,
   graphiteHost: "127.0.0.1",
   flushInterval: 10000,
-  deleteIdleStats: true,
+  deleteSets: true,
   backends: ['./backends/graphite'],
   graphite: {
     legacyNamespace: false
